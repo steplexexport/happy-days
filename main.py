@@ -10,7 +10,7 @@ def run(arg_parser: argparse.ArgumentParser, version: str) -> None:
     # URL is a required argument
     if not args.url:
         arg_parser.print_help()
-        sys.exit()
+        sys.exit()#yes
 
     # Print verison then exit
     if args.version:
